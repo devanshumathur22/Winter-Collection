@@ -32,7 +32,7 @@ import Pullover from "../src/pages/womencategory/Pullover.jsx";
 import CableKnite from "../src/pages/womencategory/Cableknite.jsx";
 import Sweater from "../src/pages/womencategory/Sweatershirts.jsx";
 import Support from "../src/pages/support.jsx";
-import woolcoats from "../src/pages/womencategory/woolcoat.jsx";
+
 import Woolcoats from "../src/pages/womencategory/woolcoat.jsx";
 
 
@@ -70,7 +70,7 @@ function App() {
         <Route path="/men/hoodies" element={<Hoodies />} />
 
         {/* Women */}
-   <Route path="/women/woolcoat" element={<Woolcoats />} />
+<Route path="/women/woolcoat" element={<Woolcoats />} />
 <Route path="/women/pullover" element={<Pullover />} />
 <Route path="/women/cableknite" element={<CableKnite />} />
 <Route path="/women/sweatershirts" element={<Sweater />} />

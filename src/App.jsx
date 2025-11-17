@@ -27,7 +27,7 @@ import Jeans from "../src/pages/Category.jsx/Jeans.jsx";
 import Hoodies from "../src/pages/Category.jsx/Hoodies.jsx";
  
 //Category Women Pages
-import WoolCoats from "./pages/womencategory/Woolcoat.jsx";
+import WoolCoats from "./pages/womencategory/woolcoat.jsx";
 import Pullover from "./pages/womencategory/Pullover.jsx";
 import CableKnite from "./pages/womencategory/Cableknite.jsx";
 import Sweater from "./pages/womencategory/Sweatershirts.jsx";

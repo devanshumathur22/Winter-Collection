@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import Navbar from "../src/components/Navbar.jsx";
 import Footer from "../src/components/footer.jsx";
 import Cta from "../src/components/Cta.jsx";
-// import Homeproducts from "../src/components/";
+
 // Pages
 import Women from "../src/pages/ Women.jsx";
 import Hero from "../src/pages/Hero.jsx";
@@ -27,11 +27,13 @@ import Jeans from "../src/pages/Category.jsx/Jeans.jsx";
 import Hoodies from "../src/pages/Category.jsx/Hoodies.jsx";
  
 //Category Women Pages
-import WoolCoats from "./pages/womencategory/woolcoat.jsx";
-import Pullover from "./pages/womencategory/Pullover.jsx";
-import CableKnite from "./pages/womencategory/Cableknite.jsx";
-import Sweater from "./pages/womencategory/Sweatershirts.jsx";
-import Support from "./pages/support.jsx";
+
+import Pullover from "../src/pages/womencategory/Pullover.jsx";
+import CableKnite from "../src/pages/womencategory/Cableknite.jsx";
+import Sweater from "../src/pages/womencategory/Sweatershirts.jsx";
+import Support from "../src/pages/support.jsx";
+import woolcoats from "../src/pages/womencategory/woolcoat.jsx";
+import Woolcoats from "../src/pages/womencategory/woolcoat.jsx";
 
 
 function App() {
@@ -68,7 +70,7 @@ function App() {
         <Route path="/men/hoodies" element={<Hoodies />} />
 
         {/* Women */}
-   <Route path="/women/woolcoat" element={<WoolCoats />} />
+   <Route path="/women/woolcoat" element={<Woolcoats />} />
 <Route path="/women/pullover" element={<Pullover />} />
 <Route path="/women/cableknite" element={<CableKnite />} />
 <Route path="/women/sweatershirts" element={<Sweater />} />
